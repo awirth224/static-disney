@@ -1,7 +1,35 @@
-/* COLORS */
+/* COLORS 
+#231942 deep purple
+#5E548E grey purple
+#9F86C0 lavender
+#BE95C4 lightest purple
+#E0B1CB pink
 
+*/
 /* HEADER */
+.header {
+  align-items: flex-end;
+  background-color: #9F86C0;
+  color: #231942;
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  justify-content: space-evenly;
+}
 
+.font-size {
+  font-size: 26px;
+}
+
+.tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.four {
+  flex-direction: column;
+}
 
 /* MAIN */
 
@@ -12,6 +40,7 @@
 }
 
 .cards-container {
+  border:#231942;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
