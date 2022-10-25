@@ -1,0 +1,49 @@
+/* COLORS */
+
+/* HEADER */
+
+
+/* MAIN */
+
+.whole-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.header-one {
+  background-image: url();
+}
+
+.header-tw0 {
+  background-image: url();
+}
+
+.header-three {
+  background-image: url();
+}
+
+.header-four {
+  background-image: url();
+}
+
+.header-five {
+  background-image: url();
+}
+
+.header-six {
+  background-image: url();
+}
+
+.header-seven {
+  background-image: url();
+}
+
+.header-eight {
+  background-image: url();
+}
