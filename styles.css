@@ -17,9 +17,10 @@ font-family: 'Quicksand', sans-serif;
   color: #231942;
   display: flex;
   flex-direction: row;
-  height: 15vh;
+  height: 12vh;
   gap: 50px;
   justify-content: flex-start;
+  margin: 0%;
 }
 
 .font-size {
@@ -40,7 +41,7 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .logo {
-  margin-bottom: 0%;
+  margin-bottom: 1%;
 }
 
 .one {
@@ -52,17 +53,17 @@ font-family: 'Quicksand', sans-serif;
   flex-direction: column;
   justify-content: flex-end;
   justify-self: flex-end;
-  margin-left: 40%;
+  margin-left: auto;
+  margin-right: 2%
 }
 
 .username {
-  margin-bottom: 30%;
+  margin-bottom: 10%;
 }
 
-.mickey {
-  margin-right: 10%;
+.d {
+  margin-left: auto;
 }
-
 /* MAIN */
 
 .whole-container {
@@ -81,7 +82,7 @@ font-family: 'Quicksand', sans-serif;
 .card {
   box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .2);
   grid-column: span 1;
-  height: 30%;
+  height: 40vh;
 }
 
 .card-header {
@@ -102,11 +103,11 @@ font-family: 'Quicksand', sans-serif;
   margin-bottom: 2%;
 }
 
-.right-side-header {
+/* .right-side-header {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-}
+} */
 
 .username {
   display: flex;
@@ -133,9 +134,10 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .card-body {
-  height: 25vh;
   background-color: white;
-  margin-top: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 20vh;
 }
 
 .link-container {
@@ -149,11 +151,11 @@ font-family: 'Quicksand', sans-serif;
 
 p {
   color: #231942;
-  margin: 5% 10% 5% 10%;
+  margin: 2% 2% 5% 10%;
 }
 
 .no-margin {
- margin: 5% 10% 5% 1%;
+ margin: 5% 5% 5% 1%;
 }
 
 .link:hover {
@@ -163,4 +165,8 @@ p {
 
 .font-color {
   color: #9F86C0;
+}
+
+.park {
+  font-weight: bolder;
 }
