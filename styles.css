@@ -18,11 +18,18 @@ font-family: 'Quicksand', sans-serif;
   display: flex;
   flex-direction: row;
   height: 15vh;
-  justify-content: space-between;
+  gap: 50px;
+  justify-content: flex-start;
 }
 
 .font-size {
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.font-size:hover {
+  color:#231942;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .tab {
@@ -32,12 +39,28 @@ font-family: 'Quicksand', sans-serif;
   margin-left: 0%;
 }
 
+.logo {
+  margin-bottom: 0%;
+}
+
 .one {
   margin-left: 0%;
 }
 
 .four {
+  display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  justify-self: flex-end;
+  margin-left: 40%;
+}
+
+.username {
+  margin-bottom: 30%;
+}
+
+.mickey {
+  margin-right: 10%;
 }
 
 /* MAIN */
@@ -56,7 +79,7 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .card {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .2);
   grid-column: span 1;
   height: 30%;
 }
@@ -85,6 +108,17 @@ font-family: 'Quicksand', sans-serif;
   justify-content: flex-end;
 }
 
+.username {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mickey {
+  margin-top: 2%;
+  margin-right: 5%;
+}
+
 .header-text {
   flex-direction: column;
   justify-content: flex-end;
@@ -93,7 +127,7 @@ font-family: 'Quicksand', sans-serif;
 .card-header > img {
   display: flex;
   max-height: 150px;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   width: 100%;
 }
@@ -105,11 +139,12 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .link-container {
+  align-items: center;
   display: flex;
   justify-content: flex-start;
   background-color: rgb(237, 237, 237);
   height: 12%;
-  margin: 0% 10% 5% 10%;
+  margin: 0% 15% 5% 10%;
 }
 
 p {
@@ -122,6 +157,7 @@ p {
 }
 
 .link:hover {
+  cursor: pointer;
   text-decoration: underline;
 }
 
