@@ -42,7 +42,7 @@
 .cards-container {
   border:#231942;
   display: grid;
-  gap: 1rem;
+  gap: 1.5rem;
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -52,7 +52,26 @@
 }
 
 .card-header {
+  background-color: white;
   height: 15vh;
+  width: 100%;
+}
+
+.card-header > img {
+  display: block;
+  max-height: 150px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.card-header, .header-text {
+  margin-bottom: 2%;
+}
+
+.card-body {
+  background-color: white;
+  margin-top: 20%;
 }
 
 .right-side-header {
@@ -76,4 +95,12 @@
 
 .card-body {
   height: 25vh;
+}
+
+p {
+  color: #231942;
+}
+
+.font-color {
+  color: #9F86C0;
 }
