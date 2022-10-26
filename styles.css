@@ -4,8 +4,12 @@
 #9F86C0 lavender
 #BE95C4 lightest purple
 #E0B1CB pink
-
+font-family: 'Quicksand', sans-serif;
 */
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
 /* HEADER */
 .header {
   align-items: flex-end;
@@ -14,17 +18,22 @@
   display: flex;
   flex-direction: row;
   height: 15vh;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .font-size {
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .tab {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin-left: 0%;
+}
+
+.one {
+  margin-left: 0%;
 }
 
 .four {
@@ -49,6 +58,7 @@
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
   grid-column: span 1;
+  height: 30%;
 }
 
 .card-header {
@@ -67,11 +77,6 @@
 
 .card-header, .header-text {
   margin-bottom: 2%;
-}
-
-.card-body {
-  background-color: white;
-  margin-top: 20%;
 }
 
 .right-side-header {
@@ -95,10 +100,29 @@
 
 .card-body {
   height: 25vh;
+  background-color: white;
+  margin-top: 20%;
+}
+
+.link-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(237, 237, 237);
+  height: 12%;
+  margin: 0% 10% 5% 10%;
 }
 
 p {
   color: #231942;
+  margin: 5% 10% 5% 10%;
+}
+
+.no-margin {
+ margin: 5% 10% 5% 1%;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 .font-color {
